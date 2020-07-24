@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>net.sf.jasperreports</groupId>
 	<artifactId>jasperreports</artifactId>
-	<version>6.13.0</version>
+	<version>6.13.0-sb-fixed</version>
 	<packaging>jar</packaging>
 	<name>JasperReports Library</name>
 	<description>Free Java Reporting Library</description>
@@ -185,7 +185,8 @@
 		<dependency>
 			<groupId>org.codehaus.groovy</groupId>
 			<artifactId>groovy-all</artifactId>
-			<version>2.4.16</version>
+			<version>3.0.0</version>
+            <type>pom</type>
 			<scope>compile</scope>
 			<optional>true</optional>
 		</dependency>
@@ -600,7 +601,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<doCheck>true</doCheck>
+					<doCheck>false</doCheck>
 					<doUpdate>false</doUpdate>
 				</configuration>
 			</plugin>
